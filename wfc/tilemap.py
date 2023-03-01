@@ -28,19 +28,19 @@ class TileMap:
         self.width = width
         self.height = height
         self.tiles = set(tiles)
-        self.cells = self._init_cells(self.width, self.height, self.tiles)
-        self.rules = self._build_rules(self.tiles)
+        self.cells = TileMap.init_cells(self.width, self.height, self.tiles)
+        self.rules = TileMap.build_rules(self.tiles)
 
-    def _init_cells(
-        self, width: int, height: int, tiles: Set[Tile]
-    ) -> List[List[Cell]]:
+    @staticmethod
+    def init_cells(width: int, height: int, tiles: Set[Tile]) -> List[List[Cell]]:
         cells = []
         for y in range(height):
             row = [Cell(x, y, tiles) for x in range(width)]
             cells.append(row)
         return cells
 
-    def _build_rules(self, tiles: Set[Tile]):
+    @staticmethod
+    def build_rules(tiles: Set[Tile]):
         rules = {tile.id: {k: set() for k in DIRECTION_NAMES} for tile in tiles}
 
         for _tile in tiles:
@@ -51,10 +51,11 @@ class TileMap:
 
         return rules
 
-    def _get_cells_with_minimum_entropy(
-        self, cells: Union[List[Cell], None] = None
+    @staticmethod
+    def get_cells_with_minimum_entropy(
+        cells: Union[List[Cell], None] = None
     ) -> Set[Cell]:
-        all_cells = [cell for row in cells or self.cells for cell in row]
+        all_cells = [cell for row in cells for cell in row]
         uncollapsed_cells = [cell for cell in all_cells if not cell.collapsed]
         if not uncollapsed_cells:
             return []
@@ -142,7 +143,7 @@ def generate_tilemap(width: int, height: int, tiles: Set[Tile]):
     tilemap = TileMap(width, height, tiles)
     print("\033[2J", end="")
 
-    while cells := tilemap._get_cells_with_minimum_entropy():
+    while cells := TileMap.get_cells_with_minimum_entropy(tilemap.cells):
         # observe one of the least entropic cells
         collapsed_cell = tilemap._observe_random_cell(cells)
         try:
