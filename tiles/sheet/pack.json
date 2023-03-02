@@ -5,8 +5,7 @@
     "tiles": [
         {
             "filename": "01.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gd",
                 "dg",
@@ -15,8 +14,7 @@
         },
         {
             "filename": "02.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gd",
                 "dd",
@@ -25,8 +23,7 @@
         },
         {
             "filename": "03.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gd",
                 "dd",
@@ -35,8 +32,7 @@
         },
         {
             "filename": "04.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gd",
                 "dd",
@@ -45,8 +41,7 @@
         },
         {
             "filename": "05.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gd",
                 "dd",
@@ -55,8 +50,7 @@
         },
         {
             "filename": "06.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gd",
@@ -65,8 +59,7 @@
         },
         {
             "filename": "07.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gg",
@@ -75,8 +68,7 @@
         },
         {
             "filename": "08.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dm",
                 "md",
@@ -85,8 +77,7 @@
         },
         {
             "filename": "09.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dm",
                 "mm",
@@ -95,8 +86,7 @@
         },
         {
             "filename": "10.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dm",
                 "mm",
@@ -105,8 +95,7 @@
         },
         {
             "filename": "11.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dm",
                 "mm",
@@ -115,8 +104,7 @@
         },
         {
             "filename": "12.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dm",
                 "mm",
@@ -125,8 +113,7 @@
         },
         {
             "filename": "13.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dm",
@@ -135,8 +122,7 @@
         },
         {
             "filename": "14.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gm",
                 "mg",
@@ -145,8 +131,7 @@
         },
         {
             "filename": "15.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gm",
                 "mm",
@@ -155,8 +140,7 @@
         },
         {
             "filename": "16.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gm",
                 "mm",
@@ -165,8 +149,7 @@
         },
         {
             "filename": "17.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gm",
                 "mm",
@@ -175,8 +158,7 @@
         },
         {
             "filename": "18.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gm",
                 "mm",
@@ -185,8 +167,7 @@
         },
         {
             "filename": "19.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gm",
@@ -195,8 +176,7 @@
         },
         {
             "filename": "21.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gd",
                 "dd",
                 "dg",
@@ -205,8 +185,7 @@
         },
         {
             "filename": "22.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dg",
                 "gd",
@@ -215,8 +194,7 @@
         },
         {
             "filename": "23.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dg",
@@ -225,8 +203,7 @@
         },
         {
             "filename": "24.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -235,8 +212,7 @@
         },
         {
             "filename": "25.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -245,8 +221,7 @@
         },
         {
             "filename": "26.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dg",
                 "gg",
                 "gd",
@@ -255,8 +230,7 @@
         },
         {
             "filename": "27.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gg",
@@ -265,8 +239,7 @@
         },
         {
             "filename": "28.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "mm",
                 "md",
@@ -275,8 +248,7 @@
         },
         {
             "filename": "29.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "md",
                 "dm",
@@ -285,8 +257,7 @@
         },
         {
             "filename": "30.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "md",
@@ -295,8 +266,7 @@
         },
         {
             "filename": "31.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "mm",
@@ -305,8 +275,7 @@
         },
         {
             "filename": "33.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dd",
                 "dm",
@@ -315,8 +284,7 @@
         },
         {
             "filename": "34.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mm",
                 "mg",
@@ -325,8 +293,7 @@
         },
         {
             "filename": "35.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gm",
@@ -335,8 +302,7 @@
         },
         {
             "filename": "36.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "mg",
@@ -345,8 +311,7 @@
         },
         {
             "filename": "38.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gg",
                 "gm",
@@ -355,8 +320,7 @@
         },
         {
             "filename": "39.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gd",
                 "dd",
                 "dg",
@@ -365,8 +329,7 @@
         },
         {
             "filename": "40.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dg",
                 "gd",
                 "dd",
@@ -375,8 +338,7 @@
         },
         {
             "filename": "41.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gd",
                 "dd",
                 "dd",
@@ -385,8 +347,7 @@
         },
         {
             "filename": "42.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -395,8 +356,7 @@
         },
         {
             "filename": "43.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -405,8 +365,7 @@
         },
         {
             "filename": "44.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dg",
                 "gg",
                 "gd",
@@ -415,8 +374,7 @@
         },
         {
             "filename": "45.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gg",
@@ -425,8 +383,7 @@
         },
         {
             "filename": "46.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "mm",
                 "md",
@@ -435,8 +392,7 @@
         },
         {
             "filename": "47.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dm",
                 "mm",
@@ -445,8 +401,7 @@
         },
         {
             "filename": "48.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "mm",
                 "mm",
@@ -455,8 +410,7 @@
         },
         {
             "filename": "50.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dd",
                 "dm",
@@ -465,8 +419,7 @@
         },
         {
             "filename": "51.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mm",
                 "mg",
@@ -475,8 +428,7 @@
         },
         {
             "filename": "52.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gm",
                 "mm",
@@ -485,8 +437,7 @@
         },
         {
             "filename": "53.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mm",
                 "mm",
@@ -495,8 +446,7 @@
         },
         {
             "filename": "54.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gg",
                 "gm",
@@ -505,8 +455,7 @@
         },
         {
             "filename": "55.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gd",
                 "dd",
                 "dg",
@@ -515,8 +464,7 @@
         },
         {
             "filename": "56.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gd",
                 "dg",
                 "gd",
@@ -525,8 +473,7 @@
         },
         {
             "filename": "57.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dg",
                 "gd",
                 "dg",
@@ -535,8 +482,7 @@
         },
         {
             "filename": "58.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -545,8 +491,7 @@
         },
         {
             "filename": "59.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -555,8 +500,7 @@
         },
         {
             "filename": "60.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dg",
                 "gg",
                 "gd",
@@ -565,8 +509,7 @@
         },
         {
             "filename": "61.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gg",
@@ -575,8 +518,7 @@
         },
         {
             "filename": "62.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "mm",
                 "md",
@@ -585,8 +527,7 @@
         },
         {
             "filename": "63.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "md",
                 "dm",
@@ -595,8 +536,7 @@
         },
         {
             "filename": "64.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dm",
                 "md",
@@ -605,8 +545,7 @@
         },
         {
             "filename": "65.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "mm",
@@ -615,8 +554,7 @@
         },
         {
             "filename": "66.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "mm",
@@ -625,8 +563,7 @@
         },
         {
             "filename": "67.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dd",
                 "dm",
@@ -635,8 +572,7 @@
         },
         {
             "filename": "68.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mm",
                 "mg",
@@ -645,8 +581,7 @@
         },
         {
             "filename": "69.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mg",
                 "gm",
@@ -655,8 +590,7 @@
         },
         {
             "filename": "70.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gm",
                 "mg",
@@ -665,8 +599,7 @@
         },
         {
             "filename": "71.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gg",
                 "gm",
@@ -675,8 +608,7 @@
         },
         {
             "filename": "72.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gd",
                 "dd",
                 "dg",
@@ -685,8 +617,7 @@
         },
         {
             "filename": "73.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dg",
                 "gd",
                 "dg",
@@ -695,8 +626,7 @@
         },
         {
             "filename": "74.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gd",
                 "dg",
                 "gd",
@@ -705,8 +635,7 @@
         },
         {
             "filename": "75.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -715,8 +644,7 @@
         },
         {
             "filename": "76.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dd",
                 "dd",
                 "dd",
@@ -725,8 +653,7 @@
         },
         {
             "filename": "77.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dg",
                 "gg",
                 "gd",
@@ -735,8 +662,7 @@
         },
         {
             "filename": "78.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gg",
@@ -745,8 +671,7 @@
         },
         {
             "filename": "79.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "mm",
                 "md",
@@ -755,8 +680,7 @@
         },
         {
             "filename": "80.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dm",
                 "md",
@@ -765,8 +689,7 @@
         },
         {
             "filename": "81.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "md",
                 "dm",
@@ -775,8 +698,7 @@
         },
         {
             "filename": "82.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "mm",
@@ -785,8 +707,7 @@
         },
         {
             "filename": "83.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "mm",
@@ -795,8 +716,7 @@
         },
         {
             "filename": "84.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dd",
                 "dm",
@@ -805,8 +725,7 @@
         },
         {
             "filename": "85.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mm",
                 "mg",
@@ -815,8 +734,7 @@
         },
         {
             "filename": "86.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gm",
                 "mg",
@@ -825,8 +743,7 @@
         },
         {
             "filename": "87.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mg",
                 "gm",
@@ -835,8 +752,7 @@
         },
         {
             "filename": "88.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gg",
                 "mg",
@@ -845,8 +761,7 @@
         },
         {
             "filename": "89.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mg",
                 "gg",
@@ -855,8 +770,7 @@
         },
         {
             "filename": "90.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -865,8 +779,7 @@
         },
         {
             "filename": "91.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -875,8 +788,7 @@
         },
         {
             "filename": "92.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -885,8 +797,7 @@
         },
         {
             "filename": "93.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -895,8 +806,7 @@
         },
         {
             "filename": "94.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gg",
                 "gg",
@@ -905,8 +815,7 @@
         },
         {
             "filename": "95.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gg",
@@ -915,8 +824,7 @@
         },
         {
             "filename": "96.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "dm",
                 "md",
                 "dd",
@@ -925,8 +833,7 @@
         },
         {
             "filename": "97.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "md",
                 "dd",
@@ -935,8 +842,7 @@
         },
         {
             "filename": "98.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "md",
                 "dd",
@@ -945,8 +851,7 @@
         },
         {
             "filename": "99.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "md",
                 "dd",
@@ -955,8 +860,7 @@
         },
         {
             "filename": "100.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "md",
                 "dd",
@@ -965,8 +869,7 @@
         },
         {
             "filename": "101.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "md",
                 "dd",
                 "dd",
@@ -975,8 +878,7 @@
         },
         {
             "filename": "102.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gm",
                 "mg",
                 "gg",
@@ -985,8 +887,7 @@
         },
         {
             "filename": "103.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -995,8 +896,7 @@
         },
         {
             "filename": "104.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -1005,8 +905,7 @@
         },
         {
             "filename": "105.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -1015,8 +914,7 @@
         },
         {
             "filename": "106.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mg",
                 "gg",
@@ -1025,8 +923,7 @@
         },
         {
             "filename": "107.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mg",
                 "gg",
                 "gg",
@@ -1035,8 +932,7 @@
         },
         {
             "filename": "108.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gw",
                 "wg",
@@ -1045,8 +941,7 @@
         },
         {
             "filename": "109.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gw",
                 "ww",
@@ -1055,8 +950,7 @@
         },
         {
             "filename": "110.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gw",
                 "ww",
@@ -1065,8 +959,7 @@
         },
         {
             "filename": "111.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gw",
                 "ww",
@@ -1075,8 +968,7 @@
         },
         {
             "filename": "112.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gw",
                 "ww",
@@ -1085,8 +977,7 @@
         },
         {
             "filename": "113.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gw",
@@ -1095,8 +986,7 @@
         },
         {
             "filename": "114.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gg",
                 "gg",
                 "gg",
@@ -1105,8 +995,7 @@
         },
         {
             "filename": "115.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mw",
                 "wm",
@@ -1115,8 +1004,7 @@
         },
         {
             "filename": "116.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mw",
                 "ww",
@@ -1125,8 +1013,7 @@
         },
         {
             "filename": "117.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mw",
                 "ww",
@@ -1135,8 +1022,7 @@
         },
         {
             "filename": "118.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mw",
                 "ww",
@@ -1145,8 +1031,7 @@
         },
         {
             "filename": "119.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mw",
                 "ww",
@@ -1155,8 +1040,7 @@
         },
         {
             "filename": "120.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mm",
                 "mm",
                 "mw",
@@ -1165,8 +1049,7 @@
         },
         {
             "filename": "122.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "ww",
                 "wg",
@@ -1175,8 +1058,7 @@
         },
         {
             "filename": "123.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wg",
                 "gw",
@@ -1185,8 +1067,7 @@
         },
         {
             "filename": "124.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "ww",
                 "wg",
@@ -1195,8 +1076,7 @@
         },
         {
             "filename": "125.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "ww",
                 "ww",
@@ -1205,8 +1085,7 @@
         },
         {
             "filename": "127.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gg",
                 "gw",
@@ -1215,8 +1094,7 @@
         },
         {
             "filename": "129.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "ww",
                 "wm",
@@ -1225,8 +1103,7 @@
         },
         {
             "filename": "130.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wm",
                 "mw",
@@ -1235,8 +1112,7 @@
         },
         {
             "filename": "131.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "ww",
                 "wm",
@@ -1245,8 +1121,7 @@
         },
         {
             "filename": "133.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mm",
                 "mw",
@@ -1255,8 +1130,7 @@
         },
         {
             "filename": "134.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "ww",
                 "wg",
@@ -1265,8 +1139,7 @@
         },
         {
             "filename": "135.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gw",
                 "ww",
@@ -1275,8 +1148,7 @@
         },
         {
             "filename": "136.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "ww",
                 "ww",
@@ -1285,8 +1157,7 @@
         },
         {
             "filename": "138.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gg",
                 "gw",
@@ -1295,8 +1166,7 @@
         },
         {
             "filename": "139.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "ww",
                 "wm",
@@ -1305,8 +1175,7 @@
         },
         {
             "filename": "140.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mw",
                 "ww",
@@ -1315,8 +1184,7 @@
         },
         {
             "filename": "141.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "ww",
                 "ww",
@@ -1325,8 +1193,7 @@
         },
         {
             "filename": "142.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mm",
                 "mw",
@@ -1335,8 +1202,7 @@
         },
         {
             "filename": "143.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "ww",
                 "wg",
@@ -1345,8 +1211,7 @@
         },
         {
             "filename": "144.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "wg",
                 "gw",
@@ -1355,8 +1220,7 @@
         },
         {
             "filename": "145.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gw",
                 "wg",
@@ -1365,8 +1229,7 @@
         },
         {
             "filename": "146.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gg",
                 "gw",
@@ -1375,8 +1238,7 @@
         },
         {
             "filename": "147.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "ww",
                 "wm",
@@ -1385,8 +1247,7 @@
         },
         {
             "filename": "148.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "wm",
                 "mw",
@@ -1395,8 +1256,7 @@
         },
         {
             "filename": "149.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mw",
                 "wm",
@@ -1405,8 +1265,7 @@
         },
         {
             "filename": "150.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mm",
                 "mw",
@@ -1415,8 +1274,7 @@
         },
         {
             "filename": "151.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "ww",
                 "wg",
@@ -1425,8 +1283,7 @@
         },
         {
             "filename": "152.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gw",
                 "wg",
@@ -1435,8 +1292,7 @@
         },
         {
             "filename": "153.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "wg",
                 "gw",
@@ -1445,8 +1301,7 @@
         },
         {
             "filename": "154.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gg",
                 "gw",
@@ -1455,8 +1310,7 @@
         },
         {
             "filename": "155.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "ww",
                 "wm",
@@ -1465,8 +1319,7 @@
         },
         {
             "filename": "156.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mw",
                 "wm",
@@ -1475,8 +1328,7 @@
         },
         {
             "filename": "157.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "wm",
                 "mw",
@@ -1485,8 +1337,7 @@
         },
         {
             "filename": "158.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mm",
                 "mw",
@@ -1495,8 +1346,7 @@
         },
         {
             "filename": "159.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "gw",
                 "wg",
                 "gg",
@@ -1505,8 +1355,7 @@
         },
         {
             "filename": "160.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wg",
                 "gg",
@@ -1515,8 +1364,7 @@
         },
         {
             "filename": "161.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wg",
                 "gg",
@@ -1525,8 +1373,7 @@
         },
         {
             "filename": "162.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wg",
                 "gg",
@@ -1535,8 +1382,7 @@
         },
         {
             "filename": "163.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wg",
                 "gg",
@@ -1545,8 +1391,7 @@
         },
         {
             "filename": "164.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wg",
                 "gg",
                 "gg",
@@ -1555,8 +1400,7 @@
         },
         {
             "filename": "165.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "mw",
                 "wm",
                 "mm",
@@ -1565,8 +1409,7 @@
         },
         {
             "filename": "166.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wm",
                 "mm",
@@ -1575,8 +1418,7 @@
         },
         {
             "filename": "167.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wm",
                 "mm",
@@ -1585,8 +1427,7 @@
         },
         {
             "filename": "168.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wm",
                 "mm",
@@ -1595,8 +1436,7 @@
         },
         {
             "filename": "169.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "ww",
                 "wm",
                 "mm",
@@ -1605,8 +1445,7 @@
         },
         {
             "filename": "170.png",
-            "rotations": [],
-            "slots": [
+            "edges": [
                 "wm",
                 "mm",
                 "mm",

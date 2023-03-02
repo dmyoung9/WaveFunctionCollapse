@@ -1,0 +1,43 @@
+{
+    "pack_name": "Pipes",
+    "tile_width": 32,
+    "tile_height": 32,
+    "tiles": [
+        {
+            "filename": "0.png",
+            "edges": [
+                "01",
+                "10",
+                "01",
+                "10"
+            ]
+        },
+        {
+            "filename": "1.png",
+            "edges": [
+                "01",
+                "10",
+                "01",
+                "10"
+            ]
+        },
+        {
+            "filename": "2.png",
+            "edges": [
+                "10",
+                "01",
+                "10",
+                "01"
+            ]
+        },
+        {
+            "filename": "3.png",
+            "edges": [
+                "10",
+                "01",
+                "01",
+                "10"
+            ]
+        }
+    ]
+}

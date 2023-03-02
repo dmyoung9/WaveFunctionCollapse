@@ -1,0 +1,25 @@
+{
+    "pack_name": "1corn2a",
+    "tile_width": 32,
+    "tile_height": 32,
+    "tiles": [
+        {
+            "filename": "0.png",
+            "edges": [
+                "01",
+                "10",
+                "01",
+                "10"
+            ]
+        },
+        {
+            "filename": "1.png",
+            "edges": [
+                "10",
+                "01",
+                "10",
+                "01"
+            ]
+        }
+    ]
+}
