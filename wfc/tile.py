@@ -3,11 +3,20 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from typing import Dict
+    from typing import Dict, Union
+    from PIL.Image import Image
 
 
 class Tile:
-    def __init__(self, id: int, north: str, east: str, south: str, west: str):
+    def __init__(
+        self,
+        id: int,
+        north: str,
+        east: str,
+        south: str,
+        west: str,
+        img: Union[Image, None] = None,
+    ):
         """
         A specific `Tile` that can be added to a `TileMap`. Each tile is
         identified by a unique integer ID.
@@ -16,6 +25,7 @@ class Tile:
         """
         self.id = id
         self.edges = self._init_edges(north, east, south, west)
+        self.img = img
 
     def _init_edges(
         self, north: str, east: str, south: str, west: str
@@ -26,9 +36,7 @@ class Tile:
         return {"north": north, "east": east, "south": south, "west": west}
 
     def __eq__(self, other):
-        return all(
-            (self.id == other.id, self.edges == other.edges)
-        )
+        return all((self.id == other.id, self.edges == other.edges))
 
     def __hash__(self):
         return hash(f"{self.id}_{self.edges}")

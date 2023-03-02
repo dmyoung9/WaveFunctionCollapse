@@ -41,3 +41,6 @@ class Cell:
 
     def get_tile(self) -> Union[Cell, None]:
         return tuple(self.options)[0] if self.collapsed else None
+
+    def __repr__(self) -> str:
+        return f"({self.x}, {self.y}) -> {self.entropy}"
