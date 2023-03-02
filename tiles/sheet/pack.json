@@ -1,0 +1,1617 @@
+{
+    "pack_name": "Sheet",
+    "tile_width": 16,
+    "tile_height": 16,
+    "tiles": [
+        {
+            "filename": "01.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "02.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "03.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "04.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "05.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "06.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "07.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "08.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "09.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dm",
+                "mm",
+                "md"
+            ]
+        },
+        {
+            "filename": "10.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dm",
+                "mm",
+                "md"
+            ]
+        },
+        {
+            "filename": "11.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dm",
+                "mm",
+                "md"
+            ]
+        },
+        {
+            "filename": "12.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dm",
+                "mm",
+                "md"
+            ]
+        },
+        {
+            "filename": "13.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dm",
+                "md"
+            ]
+        },
+        {
+            "filename": "14.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "15.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "16.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "17.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "18.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "19.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "21.png",
+            "rotations": [],
+            "slots": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "22.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dg",
+                "gd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "23.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dg",
+                "gd"
+            ]
+        },
+        {
+            "filename": "24.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "25.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "26.png",
+            "rotations": [],
+            "slots": [
+                "dg",
+                "gg",
+                "gd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "27.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "28.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "29.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "md",
+                "dm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "30.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "md",
+                "dm"
+            ]
+        },
+        {
+            "filename": "31.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "33.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dd",
+                "dm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "34.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "35.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "36.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "mg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "38.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gg",
+                "gm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "39.png",
+            "rotations": [],
+            "slots": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "40.png",
+            "rotations": [],
+            "slots": [
+                "dg",
+                "gd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "41.png",
+            "rotations": [],
+            "slots": [
+                "gd",
+                "dd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "42.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "43.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "44.png",
+            "rotations": [],
+            "slots": [
+                "dg",
+                "gg",
+                "gd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "45.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "46.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "47.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "48.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "mm",
+                "mm",
+                "md"
+            ]
+        },
+        {
+            "filename": "50.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dd",
+                "dm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "51.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "52.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "53.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "54.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gg",
+                "gm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "55.png",
+            "rotations": [],
+            "slots": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "56.png",
+            "rotations": [],
+            "slots": [
+                "gd",
+                "dg",
+                "gd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "57.png",
+            "rotations": [],
+            "slots": [
+                "dg",
+                "gd",
+                "dg",
+                "gd"
+            ]
+        },
+        {
+            "filename": "58.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "59.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "60.png",
+            "rotations": [],
+            "slots": [
+                "dg",
+                "gg",
+                "gd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "61.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "62.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "63.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "md",
+                "dm",
+                "md"
+            ]
+        },
+        {
+            "filename": "64.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dm",
+                "md",
+                "dm"
+            ]
+        },
+        {
+            "filename": "65.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "66.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "67.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dd",
+                "dm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "68.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "69.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mg",
+                "gm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "70.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gm",
+                "mg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "71.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gg",
+                "gm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "72.png",
+            "rotations": [],
+            "slots": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "73.png",
+            "rotations": [],
+            "slots": [
+                "dg",
+                "gd",
+                "dg",
+                "gd"
+            ]
+        },
+        {
+            "filename": "74.png",
+            "rotations": [],
+            "slots": [
+                "gd",
+                "dg",
+                "gd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "75.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "76.png",
+            "rotations": [],
+            "slots": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "77.png",
+            "rotations": [],
+            "slots": [
+                "dg",
+                "gg",
+                "gd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "78.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "79.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "80.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dm",
+                "md",
+                "dm"
+            ]
+        },
+        {
+            "filename": "81.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "md",
+                "dm",
+                "md"
+            ]
+        },
+        {
+            "filename": "82.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "83.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "84.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dd",
+                "dm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "85.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "86.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gm",
+                "mg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "87.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mg",
+                "gm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "88.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gg",
+                "mg",
+                "mm"
+            ]
+        },
+        {
+            "filename": "89.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "90.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "91.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "92.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "93.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "94.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "95.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "96.png",
+            "rotations": [],
+            "slots": [
+                "dm",
+                "md",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "97.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "98.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "99.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "100.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "101.png",
+            "rotations": [],
+            "slots": [
+                "md",
+                "dd",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "102.png",
+            "rotations": [],
+            "slots": [
+                "gm",
+                "mg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "103.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "104.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "105.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "106.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "107.png",
+            "rotations": [],
+            "slots": [
+                "mg",
+                "gg",
+                "gg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "108.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gw",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "109.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "110.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "111.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "112.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "113.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gw",
+                "wg"
+            ]
+        },
+        {
+            "filename": "114.png",
+            "rotations": [],
+            "slots": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "115.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mw",
+                "wm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "116.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mw",
+                "ww",
+                "wm"
+            ]
+        },
+        {
+            "filename": "117.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mw",
+                "ww",
+                "wm"
+            ]
+        },
+        {
+            "filename": "118.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mw",
+                "ww",
+                "wm"
+            ]
+        },
+        {
+            "filename": "119.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mw",
+                "ww",
+                "wm"
+            ]
+        },
+        {
+            "filename": "120.png",
+            "rotations": [],
+            "slots": [
+                "mm",
+                "mm",
+                "mw",
+                "wm"
+            ]
+        },
+        {
+            "filename": "122.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "123.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "124.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "ww",
+                "wg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "125.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "127.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "129.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "ww",
+                "wm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "130.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wm",
+                "mw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "131.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "ww",
+                "wm",
+                "mw"
+            ]
+        },
+        {
+            "filename": "133.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mm",
+                "mw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "134.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "135.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gw",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "136.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "ww",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "138.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "139.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "ww",
+                "wm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "140.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mw",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "141.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "ww",
+                "ww",
+                "wm"
+            ]
+        },
+        {
+            "filename": "142.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mm",
+                "mw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "143.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "144.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "wg",
+                "gw",
+                "wg"
+            ]
+        },
+        {
+            "filename": "145.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gw",
+                "wg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "146.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "147.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "ww",
+                "wm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "148.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "wm",
+                "mw",
+                "wm"
+            ]
+        },
+        {
+            "filename": "149.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mw",
+                "wm",
+                "mw"
+            ]
+        },
+        {
+            "filename": "150.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mm",
+                "mw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "151.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "152.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gw",
+                "wg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "153.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "wg",
+                "gw",
+                "wg"
+            ]
+        },
+        {
+            "filename": "154.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "155.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "ww",
+                "wm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "156.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mw",
+                "wm",
+                "mw"
+            ]
+        },
+        {
+            "filename": "157.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "wm",
+                "mw",
+                "wm"
+            ]
+        },
+        {
+            "filename": "158.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mm",
+                "mw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "159.png",
+            "rotations": [],
+            "slots": [
+                "gw",
+                "wg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "160.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "161.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "162.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "163.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "164.png",
+            "rotations": [],
+            "slots": [
+                "wg",
+                "gg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "165.png",
+            "rotations": [],
+            "slots": [
+                "mw",
+                "wm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "166.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wm",
+                "mm",
+                "mw"
+            ]
+        },
+        {
+            "filename": "167.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wm",
+                "mm",
+                "mw"
+            ]
+        },
+        {
+            "filename": "168.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wm",
+                "mm",
+                "mw"
+            ]
+        },
+        {
+            "filename": "169.png",
+            "rotations": [],
+            "slots": [
+                "ww",
+                "wm",
+                "mm",
+                "mw"
+            ]
+        },
+        {
+            "filename": "170.png",
+            "rotations": [],
+            "slots": [
+                "wm",
+                "mm",
+                "mm",
+                "mw"
+            ]
+        }
+    ]
+}
