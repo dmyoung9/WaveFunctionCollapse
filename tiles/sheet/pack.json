@@ -1,199 +1,86 @@
 {
-    "pack_name": "Sheet",
+    "pack_name": "Buch Outdoor Tiles",
     "tile_width": 16,
     "tile_height": 16,
+    "attribution": {
+        "author": "Michele 'Buch' Bucelli",
+        "source": "https://opengameart.org/content/outdoor-tiles-again"
+    },
     "tiles": [
         {
-            "filename": "01.png",
-            "edges": [
-                "gg",
-                "gd",
-                "dg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "02.png",
-            "edges": [
-                "gg",
-                "gd",
-                "dd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "03.png",
-            "edges": [
-                "gg",
-                "gd",
-                "dd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "04.png",
-            "edges": [
-                "gg",
-                "gd",
-                "dd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "05.png",
-            "edges": [
-                "gg",
-                "gd",
-                "dd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "06.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "07.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "08.png",
+            "filename": "dddddddd_00.png",
             "edges": [
                 "dd",
-                "dm",
-                "md",
+                "dd",
+                "dd",
                 "dd"
             ]
         },
         {
-            "filename": "09.png",
-            "edges": [
-                "dd",
-                "dm",
-                "mm",
-                "md"
-            ]
-        },
-        {
-            "filename": "10.png",
-            "edges": [
-                "dd",
-                "dm",
-                "mm",
-                "md"
-            ]
-        },
-        {
-            "filename": "11.png",
-            "edges": [
-                "dd",
-                "dm",
-                "mm",
-                "md"
-            ]
-        },
-        {
-            "filename": "12.png",
-            "edges": [
-                "dd",
-                "dm",
-                "mm",
-                "md"
-            ]
-        },
-        {
-            "filename": "13.png",
+            "filename": "dddddddd_01.png",
             "edges": [
                 "dd",
                 "dd",
-                "dm",
-                "md"
-            ]
-        },
-        {
-            "filename": "14.png",
-            "edges": [
-                "gg",
-                "gm",
-                "mg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "15.png",
-            "edges": [
-                "gg",
-                "gm",
-                "mm",
-                "mg"
-            ]
-        },
-        {
-            "filename": "16.png",
-            "edges": [
-                "gg",
-                "gm",
-                "mm",
-                "mg"
-            ]
-        },
-        {
-            "filename": "17.png",
-            "edges": [
-                "gg",
-                "gm",
-                "mm",
-                "mg"
-            ]
-        },
-        {
-            "filename": "18.png",
-            "edges": [
-                "gg",
-                "gm",
-                "mm",
-                "mg"
-            ]
-        },
-        {
-            "filename": "19.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gm",
-                "mg"
-            ]
-        },
-        {
-            "filename": "21.png",
-            "edges": [
-                "gd",
                 "dd",
-                "dg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "22.png",
-            "edges": [
-                "dd",
-                "dg",
-                "gd",
                 "dd"
             ]
         },
         {
-            "filename": "23.png",
+            "filename": "dddddddd_02.png",
+            "edges": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dddddddd_03.png",
+            "edges": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dddddddd_04.png",
+            "edges": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dddddddd_05.png",
+            "edges": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dddddddd_06.png",
+            "edges": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dddddddd_07.png",
+            "edges": [
+                "dd",
+                "dd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dddddggd.png",
             "edges": [
                 "dd",
                 "dd",
@@ -202,277 +89,169 @@
             ]
         },
         {
-            "filename": "24.png",
+            "filename": "dddddmmd.png",
             "edges": [
                 "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "25.png",
-            "edges": [
-                "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "26.png",
-            "edges": [
-                "dg",
-                "gg",
-                "gd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "27.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "28.png",
-            "edges": [
-                "dm",
-                "mm",
-                "md",
-                "dd"
-            ]
-        },
-        {
-            "filename": "29.png",
-            "edges": [
-                "mm",
-                "md",
-                "dm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "30.png",
-            "edges": [
-                "mm",
-                "mm",
-                "md",
-                "dm"
-            ]
-        },
-        {
-            "filename": "31.png",
-            "edges": [
-                "mm",
-                "mm",
-                "mm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "33.png",
-            "edges": [
-                "md",
                 "dd",
                 "dm",
-                "mm"
+                "md"
             ]
         },
         {
-            "filename": "34.png",
+            "filename": "dddddwwd.png",
             "edges": [
-                "gm",
-                "mm",
-                "mg",
-                "gg"
+                "dd",
+                "dd",
+                "dw",
+                "wd"
             ]
         },
         {
-            "filename": "35.png",
+            "filename": "dddggddd.png",
             "edges": [
-                "mm",
-                "mg",
-                "gm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "36.png",
-            "edges": [
-                "mm",
-                "mm",
-                "mg",
-                "gm"
-            ]
-        },
-        {
-            "filename": "38.png",
-            "edges": [
-                "mg",
-                "gg",
-                "gm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "39.png",
-            "edges": [
-                "gd",
                 "dd",
                 "dg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "40.png",
-            "edges": [
-                "dg",
                 "gd",
-                "dd",
                 "dd"
             ]
         },
         {
-            "filename": "41.png",
-            "edges": [
-                "gd",
-                "dd",
-                "dd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "42.png",
+            "filename": "dddggggd_00.png",
             "edges": [
                 "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "43.png",
-            "edges": [
-                "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "44.png",
-            "edges": [
                 "dg",
                 "gg",
-                "gd",
-                "dd"
+                "gd"
             ]
         },
         {
-            "filename": "45.png",
+            "filename": "dddggggd_01.png",
             "edges": [
+                "dd",
+                "dg",
                 "gg",
-                "gg",
-                "gg",
-                "gg"
+                "gd"
             ]
         },
         {
-            "filename": "46.png",
+            "filename": "dddggggd_02.png",
             "edges": [
+                "dd",
+                "dg",
+                "gg",
+                "gd"
+            ]
+        },
+        {
+            "filename": "dddggggd_03.png",
+            "edges": [
+                "dd",
+                "dg",
+                "gg",
+                "gd"
+            ]
+        },
+        {
+            "filename": "dddmmddd.png",
+            "edges": [
+                "dd",
                 "dm",
-                "mm",
                 "md",
                 "dd"
             ]
         },
         {
-            "filename": "47.png",
+            "filename": "dddmmmmd_00.png",
             "edges": [
-                "md",
+                "dd",
                 "dm",
-                "mm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "48.png",
-            "edges": [
-                "dm",
-                "mm",
                 "mm",
                 "md"
             ]
         },
         {
-            "filename": "50.png",
+            "filename": "dddmmmmd_01.png",
             "edges": [
-                "md",
                 "dd",
                 "dm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "51.png",
-            "edges": [
-                "gm",
                 "mm",
-                "mg",
-                "gg"
+                "md"
             ]
         },
         {
-            "filename": "52.png",
+            "filename": "dddmmmmd_02.png",
             "edges": [
-                "mg",
-                "gm",
+                "dd",
+                "dm",
                 "mm",
-                "mm"
+                "md"
             ]
         },
         {
-            "filename": "53.png",
+            "filename": "dddmmmmd_03.png",
             "edges": [
-                "gm",
+                "dd",
+                "dm",
                 "mm",
-                "mm",
-                "mg"
+                "md"
             ]
         },
         {
-            "filename": "54.png",
+            "filename": "dddwwddd.png",
             "edges": [
-                "mg",
-                "gg",
-                "gm",
-                "mm"
+                "dd",
+                "dw",
+                "wd",
+                "dd"
             ]
         },
         {
-            "filename": "55.png",
+            "filename": "dddwwwwd_00.png",
             "edges": [
+                "dd",
+                "dw",
+                "ww",
+                "wd"
+            ]
+        },
+        {
+            "filename": "dddwwwwd_01.png",
+            "edges": [
+                "dd",
+                "dw",
+                "ww",
+                "wd"
+            ]
+        },
+        {
+            "filename": "dddwwwwd_02.png",
+            "edges": [
+                "dd",
+                "dw",
+                "ww",
+                "wd"
+            ]
+        },
+        {
+            "filename": "dddwwwwd_03.png",
+            "edges": [
+                "dd",
+                "dw",
+                "ww",
+                "wd"
+            ]
+        },
+        {
+            "filename": "dggddddd.png",
+            "edges": [
+                "dg",
                 "gd",
                 "dd",
-                "dg",
-                "gg"
+                "dd"
             ]
         },
         {
-            "filename": "56.png",
-            "edges": [
-                "gd",
-                "dg",
-                "gd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "57.png",
+            "filename": "dggddggd_00.png",
             "edges": [
                 "dg",
                 "gd",
@@ -481,142 +260,7 @@
             ]
         },
         {
-            "filename": "58.png",
-            "edges": [
-                "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "59.png",
-            "edges": [
-                "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "60.png",
-            "edges": [
-                "dg",
-                "gg",
-                "gd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "61.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "62.png",
-            "edges": [
-                "dm",
-                "mm",
-                "md",
-                "dd"
-            ]
-        },
-        {
-            "filename": "63.png",
-            "edges": [
-                "dm",
-                "md",
-                "dm",
-                "md"
-            ]
-        },
-        {
-            "filename": "64.png",
-            "edges": [
-                "md",
-                "dm",
-                "md",
-                "dm"
-            ]
-        },
-        {
-            "filename": "65.png",
-            "edges": [
-                "mm",
-                "mm",
-                "mm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "66.png",
-            "edges": [
-                "mm",
-                "mm",
-                "mm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "67.png",
-            "edges": [
-                "md",
-                "dd",
-                "dm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "68.png",
-            "edges": [
-                "gm",
-                "mm",
-                "mg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "69.png",
-            "edges": [
-                "gm",
-                "mg",
-                "gm",
-                "mg"
-            ]
-        },
-        {
-            "filename": "70.png",
-            "edges": [
-                "mg",
-                "gm",
-                "mg",
-                "gm"
-            ]
-        },
-        {
-            "filename": "71.png",
-            "edges": [
-                "mg",
-                "gg",
-                "gm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "72.png",
-            "edges": [
-                "gd",
-                "dd",
-                "dg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "73.png",
+            "filename": "dggddggd_01.png",
             "edges": [
                 "dg",
                 "gd",
@@ -625,70 +269,61 @@
             ]
         },
         {
-            "filename": "74.png",
-            "edges": [
-                "gd",
-                "dg",
-                "gd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "75.png",
-            "edges": [
-                "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "76.png",
-            "edges": [
-                "dd",
-                "dd",
-                "dd",
-                "dd"
-            ]
-        },
-        {
-            "filename": "77.png",
+            "filename": "dggggddd_00.png",
             "edges": [
                 "dg",
                 "gg",
                 "gd",
-                "dg"
-            ]
-        },
-        {
-            "filename": "78.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "79.png",
-            "edges": [
-                "dm",
-                "mm",
-                "md",
                 "dd"
             ]
         },
         {
-            "filename": "80.png",
+            "filename": "dggggddd_01.png",
             "edges": [
-                "md",
-                "dm",
-                "md",
-                "dm"
+                "dg",
+                "gg",
+                "gd",
+                "dd"
             ]
         },
         {
-            "filename": "81.png",
+            "filename": "dggggddd_02.png",
+            "edges": [
+                "dg",
+                "gg",
+                "gd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dggggddd_04.png",
+            "edges": [
+                "dg",
+                "gg",
+                "gd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dggggggd.png",
+            "edges": [
+                "dg",
+                "gg",
+                "gg",
+                "gd"
+            ]
+        },
+        {
+            "filename": "dmmddddd.png",
+            "edges": [
+                "dm",
+                "md",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dmmddmmd_00.png",
             "edges": [
                 "dm",
                 "md",
@@ -697,52 +332,484 @@
             ]
         },
         {
-            "filename": "82.png",
+            "filename": "dmmddmmd_01.png",
             "edges": [
-                "mm",
-                "mm",
-                "mm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "83.png",
-            "edges": [
-                "mm",
-                "mm",
-                "mm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "84.png",
-            "edges": [
-                "md",
-                "dd",
                 "dm",
-                "mm"
+                "md",
+                "dm",
+                "md"
             ]
         },
         {
-            "filename": "85.png",
+            "filename": "dmmmmddd_00.png",
             "edges": [
-                "gm",
+                "dm",
                 "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dmmmmddd_01.png",
+            "edges": [
+                "dm",
+                "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dmmmmddd_02.png",
+            "edges": [
+                "dm",
+                "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dmmmmddd_03.png",
+            "edges": [
+                "dm",
+                "mm",
+                "md",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dmmmmmmd.png",
+            "edges": [
+                "dm",
+                "mm",
+                "mm",
+                "md"
+            ]
+        },
+        {
+            "filename": "dwwddddd.png",
+            "edges": [
+                "dw",
+                "wd",
+                "dd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dwwddwwd_00.png",
+            "edges": [
+                "dw",
+                "wd",
+                "dw",
+                "wd"
+            ]
+        },
+        {
+            "filename": "dwwddwwd_01.png",
+            "edges": [
+                "dw",
+                "wd",
+                "dw",
+                "wd"
+            ]
+        },
+        {
+            "filename": "dwwwwddd_00.png",
+            "edges": [
+                "dw",
+                "ww",
+                "wd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dwwwwddd_01.png",
+            "edges": [
+                "dw",
+                "ww",
+                "wd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dwwwwddd_02.png",
+            "edges": [
+                "dw",
+                "ww",
+                "wd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dwwwwddd_03.png",
+            "edges": [
+                "dw",
+                "ww",
+                "wd",
+                "dd"
+            ]
+        },
+        {
+            "filename": "dwwwwwwd.png",
+            "edges": [
+                "dw",
+                "ww",
+                "ww",
+                "wd"
+            ]
+        },
+        {
+            "filename": "gddddddg.png",
+            "edges": [
+                "gd",
+                "dd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gddddggg_00.png",
+            "edges": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gddddggg_01.png",
+            "edges": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gddddggg_02.png",
+            "edges": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gddddggg_03.png",
+            "edges": [
+                "gd",
+                "dd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gddggddg_00.png",
+            "edges": [
+                "gd",
+                "dg",
+                "gd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gddggddg_01.png",
+            "edges": [
+                "gd",
+                "dg",
+                "gd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gddggggg.png",
+            "edges": [
+                "gd",
+                "dg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggddddg_00.png",
+            "edges": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gggddddg_01.png",
+            "edges": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gggddddg_02.png",
+            "edges": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gggddddg_03.png",
+            "edges": [
+                "gg",
+                "gd",
+                "dd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gggddggg.png",
+            "edges": [
+                "gg",
+                "gd",
+                "dg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggddg.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gd",
+                "dg"
+            ]
+        },
+        {
+            "filename": "gggggggg_00.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_01.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_02.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_03.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_04.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_05.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_06.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_07.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_08.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_09.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_10.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggggg_11.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggggmmg.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "gggggwwg.png",
+            "edges": [
+                "gg",
+                "gg",
+                "gw",
+                "wg"
+            ]
+        },
+        {
+            "filename": "gggmmggg.png",
+            "edges": [
+                "gg",
+                "gm",
                 "mg",
                 "gg"
             ]
         },
         {
-            "filename": "86.png",
+            "filename": "gggmmmmg_00.png",
             "edges": [
-                "mg",
+                "gg",
                 "gm",
-                "mg",
-                "gm"
+                "mm",
+                "mg"
             ]
         },
         {
-            "filename": "87.png",
+            "filename": "gggmmmmg_01.png",
+            "edges": [
+                "gg",
+                "gm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "gggmmmmg_02.png",
+            "edges": [
+                "gg",
+                "gm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "gggmmmmg_04.png",
+            "edges": [
+                "gg",
+                "gm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "gggwwggg.png",
+            "edges": [
+                "gg",
+                "gw",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gggwwwwg_00.png",
+            "edges": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "gggwwwwg_01.png",
+            "edges": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "gggwwwwg_02.png",
+            "edges": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "gggwwwwg_03.png",
+            "edges": [
+                "gg",
+                "gw",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "gmmggggg.png",
+            "edges": [
+                "gm",
+                "mg",
+                "gg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gmmggmmg_00.png",
             "edges": [
                 "gm",
                 "mg",
@@ -751,142 +818,322 @@
             ]
         },
         {
-            "filename": "88.png",
+            "filename": "gmmggmmg_01.png",
             "edges": [
+                "gm",
                 "mg",
+                "gm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "gmmmmggg_00.png",
+            "edges": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gmmmmggg_01.png",
+            "edges": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gmmmmggg_02.png",
+            "edges": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gmmmmggg_03.png",
+            "edges": [
+                "gm",
+                "mm",
+                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gmmmmmmg.png",
+            "edges": [
+                "gm",
+                "mm",
+                "mm",
+                "mg"
+            ]
+        },
+        {
+            "filename": "gwwggggg.png",
+            "edges": [
+                "gw",
+                "wg",
                 "gg",
-                "mg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gwwggwwg_00.png",
+            "edges": [
+                "gw",
+                "wg",
+                "gw",
+                "wg"
+            ]
+        },
+        {
+            "filename": "gwwggwwg_01.png",
+            "edges": [
+                "gw",
+                "wg",
+                "gw",
+                "wg"
+            ]
+        },
+        {
+            "filename": "gwwwwggg_00.png",
+            "edges": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gwwwwggg_01.png",
+            "edges": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gwwwwggg_02.png",
+            "edges": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gwwwwggg_03.png",
+            "edges": [
+                "gw",
+                "ww",
+                "wg",
+                "gg"
+            ]
+        },
+        {
+            "filename": "gwwwwwwg.png",
+            "edges": [
+                "gw",
+                "ww",
+                "ww",
+                "wg"
+            ]
+        },
+        {
+            "filename": "mddddddm.png",
+            "edges": [
+                "md",
+                "dd",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "mddddmmm_00.png",
+            "edges": [
+                "md",
+                "dd",
+                "dm",
                 "mm"
             ]
         },
         {
-            "filename": "89.png",
+            "filename": "mddddmmm_01.png",
             "edges": [
-                "gm",
-                "mg",
-                "gg",
-                "gg"
+                "md",
+                "dd",
+                "dm",
+                "mm"
             ]
         },
         {
-            "filename": "90.png",
+            "filename": "mddddmmm_02.png",
             "edges": [
-                "mm",
-                "mg",
-                "gg",
-                "gm"
+                "md",
+                "dd",
+                "dm",
+                "mm"
             ]
         },
         {
-            "filename": "91.png",
+            "filename": "mddddmmm_03.png",
             "edges": [
-                "mm",
-                "mg",
-                "gg",
-                "gm"
+                "md",
+                "dd",
+                "dm",
+                "mm"
             ]
         },
         {
-            "filename": "92.png",
+            "filename": "mddmmddm_00.png",
             "edges": [
-                "mm",
-                "mg",
-                "gg",
-                "gm"
-            ]
-        },
-        {
-            "filename": "93.png",
-            "edges": [
-                "mm",
-                "mg",
-                "gg",
-                "gm"
-            ]
-        },
-        {
-            "filename": "94.png",
-            "edges": [
-                "mg",
-                "gg",
-                "gg",
-                "gm"
-            ]
-        },
-        {
-            "filename": "95.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "96.png",
-            "edges": [
+                "md",
                 "dm",
                 "md",
-                "dd",
-                "dd"
+                "dm"
             ]
         },
         {
-            "filename": "97.png",
+            "filename": "mddmmddm_01.png",
             "edges": [
+                "md",
+                "dm",
+                "md",
+                "dm"
+            ]
+        },
+        {
+            "filename": "mddmmmmm.png",
+            "edges": [
+                "md",
+                "dm",
                 "mm",
-                "md",
-                "dd",
-                "dm"
+                "mm"
             ]
         },
         {
-            "filename": "98.png",
+            "filename": "mggggggm.png",
             "edges": [
-                "mm",
-                "md",
-                "dd",
-                "dm"
+                "mg",
+                "gg",
+                "gg",
+                "gm"
             ]
         },
         {
-            "filename": "99.png",
+            "filename": "mggggmmm_00.png",
             "edges": [
-                "mm",
-                "md",
-                "dd",
-                "dm"
+                "mg",
+                "gg",
+                "gm",
+                "mm"
             ]
         },
         {
-            "filename": "100.png",
+            "filename": "mggggmmm_01.png",
             "edges": [
-                "mm",
-                "md",
-                "dd",
-                "dm"
+                "mg",
+                "gg",
+                "gm",
+                "mm"
             ]
         },
         {
-            "filename": "101.png",
+            "filename": "mggggmmm_02.png",
             "edges": [
-                "md",
-                "dd",
-                "dd",
-                "dm"
+                "mg",
+                "gg",
+                "gm",
+                "mm"
             ]
         },
         {
-            "filename": "102.png",
+            "filename": "mggggmmm_03.png",
             "edges": [
+                "mg",
+                "gg",
+                "gm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "mggmmggm_00.png",
+            "edges": [
+                "mg",
                 "gm",
                 "mg",
-                "gg",
-                "gg"
+                "gm"
             ]
         },
         {
-            "filename": "103.png",
+            "filename": "mggmmggm_01.png",
+            "edges": [
+                "mg",
+                "gm",
+                "mg",
+                "gm"
+            ]
+        },
+        {
+            "filename": "mggmmmmm.png",
+            "edges": [
+                "mg",
+                "gm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "mmmddddm_00.png",
+            "edges": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "mmmddddm_01.png",
+            "edges": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "mmmddddm_02.png",
+            "edges": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "mmmddddm_03.png",
+            "edges": [
+                "mm",
+                "md",
+                "dd",
+                "dm"
+            ]
+        },
+        {
+            "filename": "mmmddmmm.png",
+            "edges": [
+                "mm",
+                "md",
+                "dm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "mmmggggm_00.png",
             "edges": [
                 "mm",
                 "mg",
@@ -895,7 +1142,7 @@
             ]
         },
         {
-            "filename": "104.png",
+            "filename": "mmmggggm_01.png",
             "edges": [
                 "mm",
                 "mg",
@@ -904,7 +1151,7 @@
             ]
         },
         {
-            "filename": "105.png",
+            "filename": "mmmggggm_02.png",
             "edges": [
                 "mm",
                 "mg",
@@ -913,7 +1160,7 @@
             ]
         },
         {
-            "filename": "106.png",
+            "filename": "mmmggggm_03.png",
             "edges": [
                 "mm",
                 "mg",
@@ -922,534 +1169,507 @@
             ]
         },
         {
-            "filename": "107.png",
+            "filename": "mmmggmmm.png",
             "edges": [
+                "mm",
                 "mg",
-                "gg",
-                "gg",
+                "gm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "mmmmmddm.png",
+            "edges": [
+                "mm",
+                "mm",
+                "md",
+                "dm"
+            ]
+        },
+        {
+            "filename": "mmmmmggm.png",
+            "edges": [
+                "mm",
+                "mm",
+                "mg",
                 "gm"
             ]
         },
         {
-            "filename": "108.png",
-            "edges": [
-                "gg",
-                "gw",
-                "wg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "109.png",
-            "edges": [
-                "gg",
-                "gw",
-                "ww",
-                "wg"
-            ]
-        },
-        {
-            "filename": "110.png",
-            "edges": [
-                "gg",
-                "gw",
-                "ww",
-                "wg"
-            ]
-        },
-        {
-            "filename": "111.png",
-            "edges": [
-                "gg",
-                "gw",
-                "ww",
-                "wg"
-            ]
-        },
-        {
-            "filename": "112.png",
-            "edges": [
-                "gg",
-                "gw",
-                "ww",
-                "wg"
-            ]
-        },
-        {
-            "filename": "113.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gw",
-                "wg"
-            ]
-        },
-        {
-            "filename": "114.png",
-            "edges": [
-                "gg",
-                "gg",
-                "gg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "115.png",
-            "edges": [
-                "mm",
-                "mw",
-                "wm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "116.png",
-            "edges": [
-                "mm",
-                "mw",
-                "ww",
-                "wm"
-            ]
-        },
-        {
-            "filename": "117.png",
-            "edges": [
-                "mm",
-                "mw",
-                "ww",
-                "wm"
-            ]
-        },
-        {
-            "filename": "118.png",
-            "edges": [
-                "mm",
-                "mw",
-                "ww",
-                "wm"
-            ]
-        },
-        {
-            "filename": "119.png",
-            "edges": [
-                "mm",
-                "mw",
-                "ww",
-                "wm"
-            ]
-        },
-        {
-            "filename": "120.png",
+            "filename": "mmmmmmmm_00.png",
             "edges": [
                 "mm",
                 "mm",
-                "mw",
-                "wm"
-            ]
-        },
-        {
-            "filename": "122.png",
-            "edges": [
-                "gw",
-                "ww",
-                "wg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "123.png",
-            "edges": [
-                "ww",
-                "wg",
-                "gw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "124.png",
-            "edges": [
-                "ww",
-                "ww",
-                "wg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "125.png",
-            "edges": [
-                "ww",
-                "ww",
-                "ww",
-                "ww"
-            ]
-        },
-        {
-            "filename": "127.png",
-            "edges": [
-                "wg",
-                "gg",
-                "gw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "129.png",
-            "edges": [
-                "mw",
-                "ww",
-                "wm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "130.png",
-            "edges": [
-                "ww",
-                "wm",
-                "mw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "131.png",
-            "edges": [
-                "ww",
-                "ww",
-                "wm",
-                "mw"
-            ]
-        },
-        {
-            "filename": "133.png",
-            "edges": [
-                "wm",
-                "mm",
-                "mw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "134.png",
-            "edges": [
-                "gw",
-                "ww",
-                "wg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "135.png",
-            "edges": [
-                "wg",
-                "gw",
-                "ww",
-                "ww"
-            ]
-        },
-        {
-            "filename": "136.png",
-            "edges": [
-                "gw",
-                "ww",
-                "ww",
-                "wg"
-            ]
-        },
-        {
-            "filename": "138.png",
-            "edges": [
-                "wg",
-                "gg",
-                "gw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "139.png",
-            "edges": [
-                "mw",
-                "ww",
-                "wm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "140.png",
-            "edges": [
-                "wm",
-                "mw",
-                "ww",
-                "ww"
-            ]
-        },
-        {
-            "filename": "141.png",
-            "edges": [
-                "mw",
-                "ww",
-                "ww",
-                "wm"
-            ]
-        },
-        {
-            "filename": "142.png",
-            "edges": [
-                "wm",
-                "mm",
-                "mw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "143.png",
-            "edges": [
-                "gw",
-                "ww",
-                "wg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "144.png",
-            "edges": [
-                "gw",
-                "wg",
-                "gw",
-                "wg"
-            ]
-        },
-        {
-            "filename": "145.png",
-            "edges": [
-                "wg",
-                "gw",
-                "wg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "146.png",
-            "edges": [
-                "wg",
-                "gg",
-                "gw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "147.png",
-            "edges": [
-                "mw",
-                "ww",
-                "wm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "148.png",
-            "edges": [
-                "mw",
-                "wm",
-                "mw",
-                "wm"
-            ]
-        },
-        {
-            "filename": "149.png",
-            "edges": [
-                "wm",
-                "mw",
-                "wm",
-                "mw"
-            ]
-        },
-        {
-            "filename": "150.png",
-            "edges": [
-                "wm",
-                "mm",
-                "mw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "151.png",
-            "edges": [
-                "gw",
-                "ww",
-                "wg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "152.png",
-            "edges": [
-                "wg",
-                "gw",
-                "wg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "153.png",
-            "edges": [
-                "gw",
-                "wg",
-                "gw",
-                "wg"
-            ]
-        },
-        {
-            "filename": "154.png",
-            "edges": [
-                "wg",
-                "gg",
-                "gw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "155.png",
-            "edges": [
-                "mw",
-                "ww",
-                "wm",
-                "mm"
-            ]
-        },
-        {
-            "filename": "156.png",
-            "edges": [
-                "wm",
-                "mw",
-                "wm",
-                "mw"
-            ]
-        },
-        {
-            "filename": "157.png",
-            "edges": [
-                "mw",
-                "wm",
-                "mw",
-                "wm"
-            ]
-        },
-        {
-            "filename": "158.png",
-            "edges": [
-                "wm",
-                "mm",
-                "mw",
-                "ww"
-            ]
-        },
-        {
-            "filename": "159.png",
-            "edges": [
-                "gw",
-                "wg",
-                "gg",
-                "gg"
-            ]
-        },
-        {
-            "filename": "160.png",
-            "edges": [
-                "ww",
-                "wg",
-                "gg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "161.png",
-            "edges": [
-                "ww",
-                "wg",
-                "gg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "162.png",
-            "edges": [
-                "ww",
-                "wg",
-                "gg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "163.png",
-            "edges": [
-                "ww",
-                "wg",
-                "gg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "164.png",
-            "edges": [
-                "wg",
-                "gg",
-                "gg",
-                "gw"
-            ]
-        },
-        {
-            "filename": "165.png",
-            "edges": [
-                "mw",
-                "wm",
                 "mm",
                 "mm"
             ]
         },
         {
-            "filename": "166.png",
+            "filename": "mmmmmmmm_01.png",
             "edges": [
-                "ww",
-                "wm",
                 "mm",
-                "mw"
+                "mm",
+                "mm",
+                "mm"
             ]
         },
         {
-            "filename": "167.png",
+            "filename": "mmmmmmmm_02.png",
             "edges": [
-                "ww",
-                "wm",
                 "mm",
-                "mw"
+                "mm",
+                "mm",
+                "mm"
             ]
         },
         {
-            "filename": "168.png",
+            "filename": "mmmmmmmm_03.png",
             "edges": [
-                "ww",
-                "wm",
                 "mm",
-                "mw"
+                "mm",
+                "mm",
+                "mm"
             ]
         },
         {
-            "filename": "169.png",
+            "filename": "mmmmmmmm_04.png",
             "edges": [
-                "ww",
-                "wm",
                 "mm",
-                "mw"
+                "mm",
+                "mm",
+                "mm"
             ]
         },
         {
-            "filename": "170.png",
+            "filename": "mmmmmmmm_05.png",
             "edges": [
-                "wm",
                 "mm",
                 "mm",
-                "mw"
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "mmmmmmmm_06.png",
+            "edges": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "mmmmmmmm_07.png",
+            "edges": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "mmmmmmmm_08.png",
+            "edges": [
+                "mm",
+                "mm",
+                "mm",
+                "mm"
+            ]
+        },
+        {
+            "filename": "wddddddw.png",
+            "edges": [
+                "wd",
+                "dd",
+                "dd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wddddwww_00.png",
+            "edges": [
+                "wd",
+                "dd",
+                "dw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wddddwww_01.png",
+            "edges": [
+                "wd",
+                "dd",
+                "dw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wddddwww_02.png",
+            "edges": [
+                "wd",
+                "dd",
+                "dw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wddddwww_03.png",
+            "edges": [
+                "wd",
+                "dd",
+                "dw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wddwwddw_00.png",
+            "edges": [
+                "wd",
+                "dw",
+                "wd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wddwwddw_01.png",
+            "edges": [
+                "wd",
+                "dw",
+                "wd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wddwwwww.png",
+            "edges": [
+                "wd",
+                "dw",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wggggggw.png",
+            "edges": [
+                "wg",
+                "gg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wggggwww_00.png",
+            "edges": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wggggwww_01.png",
+            "edges": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wggggwww_02.png",
+            "edges": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wggggwww_03.png",
+            "edges": [
+                "wg",
+                "gg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wggwwggw_00.png",
+            "edges": [
+                "wg",
+                "gw",
+                "wg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wggwwggw_01.png",
+            "edges": [
+                "wg",
+                "gw",
+                "wg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wggwwwww.png",
+            "edges": [
+                "wg",
+                "gw",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwddddw_00.png",
+            "edges": [
+                "ww",
+                "wd",
+                "dd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wwwddddw_01.png",
+            "edges": [
+                "ww",
+                "wd",
+                "dd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wwwddddw_02.png",
+            "edges": [
+                "ww",
+                "wd",
+                "dd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wwwddddw_03.png",
+            "edges": [
+                "ww",
+                "wd",
+                "dd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wwwddwww.png",
+            "edges": [
+                "ww",
+                "wd",
+                "dw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwggggw_00.png",
+            "edges": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wwwggggw_01.png",
+            "edges": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wwwggggw_02.png",
+            "edges": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wwwggggw_03.png",
+            "edges": [
+                "ww",
+                "wg",
+                "gg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wwwggwww.png",
+            "edges": [
+                "ww",
+                "wg",
+                "gw",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwddw.png",
+            "edges": [
+                "ww",
+                "ww",
+                "wd",
+                "dw"
+            ]
+        },
+        {
+            "filename": "wwwwwggw.png",
+            "edges": [
+                "ww",
+                "ww",
+                "wg",
+                "gw"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_00.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_01.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_02.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_03.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_04.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_05.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_06.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_07.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_08.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_09.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_10.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_11.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_12.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_13.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_14.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
+            ]
+        },
+        {
+            "filename": "wwwwwwww_15.png",
+            "edges": [
+                "ww",
+                "ww",
+                "ww",
+                "ww"
             ]
         }
     ]
