@@ -6,10 +6,10 @@ import time
 from typing import TYPE_CHECKING
 
 import tkinter as tk
-from PIL import Image, ImageTk
+from PIL import Image
 
 if TYPE_CHECKING:
-    from typing import Dict, List, Set, Union
+    from typing import List, Set, Union
     from .tile import Tile
     from .tileset import TileSet
 
@@ -39,12 +39,9 @@ class TileMap:
         self.tk_images = {}
         self.cells = self.init_cells(self.width, self.height, self.tiles)
         self.rules = TileMap.build_rules(self.tiles)
-        self.failures = 0
+        self.contradictions = 0
         self.stack = []
-
-    @property
-    def collapsed(self):
-        return not self._get_cells_with_minimum_entropy(self.cells)
+        self.history = {}
 
     def init_cells(self, width: int, height: int, tiles: Set[Tile]) -> List[List[Cell]]:
         cells = []
@@ -61,19 +58,13 @@ class TileMap:
 
         for _tile in tiles:
             for tile in tiles:
+                if _tile.id == 0 and tile.id == 8:
+                    print()
                 for idx, d in enumerate(DIRECTION_NAMES):
                     if compatible(_tile, tile, (idx, d)):
                         rules[_tile.id][d].add(tile)
 
         return rules
-
-    def _add_to_stack(self, cell: Cell):
-        self.stack.append(
-            cell if cell not in self.stack else self.stack.pop(self.stack.index(cell))
-        )
-        for neighbor in self._get_neighbors(cell):
-            if neighbor not in self.stack:
-                self.stack.append(neighbor)
 
     def _get_cells_with_minimum_entropy(
         self, cells: Union[List[Cell], None] = None
@@ -107,18 +98,37 @@ class TileMap:
             neighbor for neighbor in self._get_neighbors(cell) if neighbor.collapsed
         }
 
-    def _observe_random_cell(
-        self, cells: Union[Set[Cell], None] = None, backtrack: bool = False
-    ) -> Cell:
-        cell = random().choice(tuple(cells or self._get_cells_with_minimum_entropy()))
-        self._add_to_stack(cell)
-        cell.collapse(self.tiles if backtrack else None)
+    def _observe_random_cell(self, cells: Union[Set[Cell], None] = None) -> Cell:
+        if cells is None:
+            cells = self._get_cells_with_minimum_entropy()
+
+        if not cells:
+            return None
+
+        cell = random().choice(tuple(cells))
+        try:
+            options = cell.options.copy()
+            cell.collapse()
+            self._propagate(cell)
+        except NoSolutionException as nse:
+            self.contradictions += 1
+            print(
+                f"_observe_random_cell: {nse}, stack: {len(self.stack)}, contradictions: {self.contradictions}"
+            )
+            # print(f"cell: {cell}, options: {options}")
+            # print(f"uncollapsed cells: {len(self._get_cells_with_minimum_entropy())}")
+            # print(f"cells with minimum entropy: {len(cells)}")
+
+            self._backtrack(cell)
+        else:
+            self.stack.append(cell)
+            self.history[cell] = options
+
         return cell
 
     def _propagate(self, collapsed_cell: Cell):
         uncollapsed_neighbors = self._get_uncollapsed_neighbors(collapsed_cell)
         for uncollapsed_neighbor in uncollapsed_neighbors:
-            self._add_to_stack(uncollapsed_neighbor)
             collapsed_neighbors = self._get_collapsed_neighbors(uncollapsed_neighbor)
             for collapsed_neighbor in collapsed_neighbors:
                 tile = collapsed_neighbor.get_tile()
@@ -130,36 +140,47 @@ class TileMap:
                         (uncollapsed_neighbor.y + dy) % self.height,
                     ):
                         direction = DIRECTION_NAMES[(idx + 2) % len(DIRECTION_NAMES)]
+                        options = uncollapsed_neighbor.options.copy()
                         uncollapsed_neighbor.options = (
                             uncollapsed_neighbor.options
                             & set(self.rules[tile.id][direction])
                         )
-                        self._add_to_stack(collapsed_neighbor)
 
-            if not len(uncollapsed_neighbor.options):
-                raise NoSolutionException(uncollapsed_neighbor)
-
-        # print(self.stack)
+                        if uncollapsed_neighbor.entropy == 1:
+                            self.stack.append(uncollapsed_neighbor)
+                            self.history[uncollapsed_neighbor] = options
 
     def _collapse(self, cells: Union[Set[Cell], None] = None):
-        # print(f"failures: {self.failures}, stack: {len(self.stack)}")
-        # observe one of the least entropic cells
-        if not (collapsed_cell := self._observe_random_cell(cells)):
-            return True
+        return self._observe_random_cell(cells) is None
 
-        try:
-            self._propagate(collapsed_cell)
+    def _backtrack(self, prev: Cell):
+        while self.stack:
+            backtrack_cell = self.stack.pop()
+            if backtrack_cell == prev:
+                break
+
+            backtrack_cell.options = (
+                self.history.pop(backtrack_cell, self.tiles) & backtrack_cell.options
+            )
+
+            neighbors = self._get_neighbors(backtrack_cell)
+            for neighbor in neighbors:
+                neighbor.options = self.tiles
+                if neighbor in self.stack:
+                    self.stack.remove(neighbor)
+
+            self._propagate(backtrack_cell)
+
+            if self.contradictions > len(self.stack):
+                break
+
             return False
-        except NoSolutionException as nse:
-            # failure state
-            self.cells = self.init_cells(self.width, self.height, self.tiles)
-            # backtrack = self.stack[-(2 ** (self.failures % len(self.stack))) - 4 :]
-            # self.stack = self.stack[: -(2 ** (self.failures % len(self.stack))) - 4]
-            # for cell in backtrack:
-            #     cell.options = self.tiles
-            # self._collapse()
 
-            raise nse
+        self.contradictions = 0
+        self.stack = []
+        self.cells = self.init_cells(self.width, self.height, self.tiles)
+
+        return True
 
     def print_map(self):
         print("\033[2J\033[H", end="")
@@ -198,11 +219,11 @@ class TileMap:
         background.save(os.path.join(os.getcwd(), "output", filename))
 
     def show_map_window(self):
-        self.failures = 0
+        self.contradictions = 0
 
         def reset(event):
             self.cells = self.init_cells(self.width, self.height, self.tiles)
-            self.failures = 0
+            self.contradictions = 0
             self.stack = []
             update()
 
@@ -222,10 +243,7 @@ class TileMap:
         def update():
             finished = False
             if cells := self._get_cells_with_minimum_entropy(self.cells):
-                try:
-                    finished = self._collapse(cells)
-                except NoSolutionException as nse:
-                    self.failures += 1
+                finished = self._collapse(cells)
             else:
                 finished = True
 
@@ -234,21 +252,25 @@ class TileMap:
                 window.after(FRAME_DELAY, update)
             else:
                 self.draw_map()
-                print(f"Restarted {self.failures} times.")
+                print(f"Finished with {self.contradictions} contradictions.")
 
         def draw_cell(cell: Cell):
-            canvas.create_rectangle(
-                (cell.x * self.tile_width + (self.tile_width // 2)) * 2,
-                (cell.y * self.tile_height + (self.tile_height // 2)) * 2,
-                (cell.x * self.tile_width + (self.tile_width * 1.5)) * 2,
-                (cell.y * self.tile_height + (self.tile_height * 1.5)) * 2,
-                tag=f"{cell.x},{cell.y}_r",
-            )
-            if not cell.collapsed:
+            # canvas.create_rectangle(
+            #     (cell.x * self.tile_width + (self.tile_width // 2)) * 2,
+            #     (cell.y * self.tile_height + (self.tile_height // 2)) * 2,
+            #     (cell.x * self.tile_width + (self.tile_width * 1.5)) * 2,
+            #     (cell.y * self.tile_height + (self.tile_height * 1.5)) * 2,
+            #     tag=f"{cell.x},{cell.y}_blank",
+            # )
+            canvas.delete(f"{cell.x},{cell.y}_overlay")
+
+            if cell.entropy > 1:
                 # print(f"Erasing cell at ({cell.x}, {cell.y})...")
                 canvas.delete(f"{cell.x},{cell.y}")
-            else:
-                canvas.delete(f"{cell.x},{cell.y}_r")
+                # canvas.delete(f"{cell.x},{cell.y}_contradiction")
+            elif cell.entropy == 1:
+                # canvas.delete(f"{cell.x},{cell.y}_blank")
+                # canvas.delete(f"{cell.x},{cell.y}_contradiction")
                 # print(f"Drawing cell at ({cell.x}, {cell.y})...")
                 tile = cell.get_tile()
                 if (tk_img := self.tk_images.get(tile.id)) is None:
@@ -262,6 +284,22 @@ class TileMap:
                     image=tk_img,
                     tag=f"{cell.x},{cell.y}",
                 )
+            canvas.create_rectangle(
+                (cell.x * self.tile_width + (self.tile_width // 2)) * 2,
+                (cell.y * self.tile_height + (self.tile_height // 2)) * 2,
+                (cell.x * self.tile_width + (self.tile_width * 1.5)) * 2,
+                (cell.y * self.tile_height + (self.tile_height * 1.5)) * 2,
+                tag=f"{cell.x},{cell.y}_overlay",
+            )
+            # if cell.entropy == 0:
+            #     canvas.create_rectangle(
+            #         (cell.x * self.tile_width + (self.tile_width // 2)) * 2,
+            #         (cell.y * self.tile_height + (self.tile_height // 2)) * 2,
+            #         (cell.x * self.tile_width + (self.tile_width * 1.5)) * 2,
+            #         (cell.y * self.tile_height + (self.tile_height * 1.5)) * 2,
+            #         tag=f"{cell.x},{cell.y}_contradiction",
+            #         outline="red"
+            #     )
 
         def draw(cells):
             for cell in cells or [cell for row in self.cells for cell in row]:

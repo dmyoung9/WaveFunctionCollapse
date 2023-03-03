@@ -26,8 +26,8 @@ class TileSet:
             self.tile_width = pack_json["tile_width"]
             self.tile_height = pack_json["tile_height"]
 
-            for tile in pack_json["tiles"]:
+            for idx, tile in enumerate(pack_json["tiles"]):
                 tile_img = os.path.join(path, tile["filename"])
-                tile_id = int(tile["filename"].split(".")[0])
+                tile_id = idx
                 tile_edges = dict(zip(DIRECTION_NAMES, tile["edges"]))
                 self.tiles.add(Tile(tile_id, **tile_edges, img=tile_img))

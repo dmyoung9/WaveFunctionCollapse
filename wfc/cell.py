@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
+from wfc.exception import NoSolutionException
+
 if TYPE_CHECKING:
     from typing import Set, Union
     from .tile import Tile
@@ -37,6 +39,9 @@ class Cell:
         """
         Collapses the cell down to one of the valid options.
         """
+        if not self.options:
+            raise NoSolutionException(self)
+
         self.options = {random().choice(tuple(options or self.options))}
 
     def get_tile(self) -> Union[Cell, None]:
