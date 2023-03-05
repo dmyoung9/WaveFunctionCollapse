@@ -29,11 +29,15 @@ class Cell:
         return len(self.options)
 
     @property
-    def collapsed(self) -> bool:
+    def collapsed(self) -> Union[bool, None]:
         """
         Whether or not this cell is collapsed (has only a single valid `Tile`).
+
+        :return: True if this cell is collapsed, False if it isn't,
+                 or None if the cell is invalid.
+        :rtype:  Union[bool, None]
         """
-        return self.entropy == 1
+        return None if self.entropy == 0 else self.entropy == 1
 
     def collapse(self, options: Union[Set[Tile], None] = None) -> None:
         """
